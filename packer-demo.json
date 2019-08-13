@@ -5,8 +5,8 @@
   },
   "builders": [{
     "type": "amazon-ebs",
-    "vpc_id": "vpc-046ab2be9a4a69cd3",
-    "subnet_id": "subnet-040d2b9026dd3972e",
+    "vpc_id": "vpc-0ddde3c4ee4408eba",
+    "subnet_id": "subnet-0a2d5bf049c17aa80",
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
     "region": "us-east-1",
